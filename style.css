@@ -1,4 +1,4 @@
-.bird {
+.cat {
   background-color: #d6d6d6;
   display: flex;
   flex-direction: row;
@@ -6,19 +6,28 @@
   width: 100%;
 }
 
-.bird .overlap-wrapper {
+.cat .overlap-wrapper {
   background-color: #d6d6d6;
   overflow: hidden;
   width: 1920px;
   height: 1080px;
 }
 
-.bird .overlap {
+.cat .overlap {
   position: relative;
-  height: 1269px;
+  height: 1274px;
 }
 
-.bird .image {
+.cat .cute-kittens-cat {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.cat .rectangle {
   position: absolute;
   width: 1920px;
   height: 1080px;
@@ -26,58 +35,48 @@
   left: 0;
 }
 
-.bird .rectangle {
-  position: absolute;
-  width: 1920px;
-  height: 1080px;
-  top: 0;
-  left: 0;
-  background-color: #000000;
-  opacity: 0.4;
-}
-
-.bird .text-wrapper {
+.cat .text-wrapper {
   position: absolute;
   top: 222px;
   left: 535px;
   font-family: "Playfair Display SC", Helvetica;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   font-size: 22px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.bird .div {
+.cat .div {
   position: absolute;
   width: 899px;
   top: 290px;
   left: 535px;
   font-family: "Playfair Display SC", Helvetica;
-  font-weight: 700;
+  font-weight: 400;
   color: #ffffff;
   font-size: 22px;
   letter-spacing: 0;
   line-height: normal;
 }
 
-.bird .component {
+.cat .component {
   position: absolute;
   width: 298px;
   height: 419px;
-  top: 416px;
+  top: 414px;
   left: 528px;
   background-color: #ddb322;
 }
 
-.bird .overlap-group {
+.cat .overlap-group {
   position: relative;
   height: 419px;
   background-color: #ffffff;
   border-radius: 10px;
 }
 
-.bird .div-wrapper {
+.cat .div-wrapper {
   position: absolute;
   width: 108px;
   height: 20px;
@@ -87,7 +86,7 @@
   border-radius: 5px;
 }
 
-.bird .text-wrapper-2 {
+.cat .text-wrapper-2 {
   position: absolute;
   width: 47px;
   top: 2px;
@@ -100,7 +99,7 @@
   line-height: normal;
 }
 
-.bird .overlap-group-2 {
+.cat .overlap-group-2 {
   position: absolute;
   width: 108px;
   height: 20px;
@@ -109,7 +108,7 @@
   border-radius: 5px;
 }
 
-.bird .rectangle-2 {
+.cat .rectangle-2 {
   position: absolute;
   width: 108px;
   height: 20px;
@@ -119,7 +118,7 @@
   border-radius: 5px;
 }
 
-.bird .text-wrapper-3 {
+.cat .text-wrapper-3 {
   position: absolute;
   width: 67px;
   top: 2px;
@@ -132,7 +131,7 @@
   line-height: normal;
 }
 
-.bird .img {
+.cat .img {
   position: absolute;
   width: 257px;
   height: 157px;
@@ -141,7 +140,7 @@
   object-fit: cover;
 }
 
-.bird .text-wrapper-4 {
+.cat .text-wrapper-4 {
   position: absolute;
   width: 61px;
   top: 306px;
@@ -154,7 +153,7 @@
   line-height: normal;
 }
 
-.bird .text-wrapper-5 {
+.cat .text-wrapper-5 {
   position: absolute;
   width: 30px;
   top: 309px;
@@ -167,7 +166,7 @@
   line-height: normal;
 }
 
-.bird .charlie-golden {
+.cat .charlie-golden {
   position: absolute;
   width: 253px;
   top: 193px;
@@ -180,16 +179,16 @@
   line-height: normal;
 }
 
-.bird .span {
+.cat .span {
   color: #2987f5;
 }
 
-.bird .text-wrapper-6 {
+.cat .text-wrapper-6 {
   color: #000000;
   font-size: 12px;
 }
 
-.bird .icon-pin-alt {
+.cat .icon-pin-alt {
   position: absolute;
   width: 25px;
   height: 31px;
@@ -197,7 +196,7 @@
   left: 63px;
 }
 
-.bird .overlap-group-3 {
+.cat .overlap-group-3 {
   position: absolute;
   width: 41px;
   height: 33px;
@@ -205,7 +204,7 @@
   left: 198px;
 }
 
-.bird .icon-male {
+.cat .icon-male {
   position: absolute;
   width: 23px;
   height: 23px;
@@ -213,7 +212,7 @@
   left: 0;
 }
 
-.bird .icon-female {
+.cat .icon-female {
   position: absolute;
   width: 27px;
   height: 27px;
@@ -221,25 +220,33 @@
   left: 14px;
 }
 
-.bird .overlap-group-wrapper {
+.cat .overlap-group-wrapper {
   position: absolute;
   width: 298px;
   height: 419px;
-  top: 416px;
+  top: 414px;
   left: 846px;
   background-color: #ddb322;
 }
 
-.bird .component-2 {
+.cat .rectangle-3 {
+  position: absolute;
+  width: 257px;
+  height: 157px;
+  top: 15px;
+  left: 22px;
+}
+
+.cat .component-2 {
   position: absolute;
   width: 298px;
   height: 419px;
-  top: 850px;
-  left: 528px;
+  top: 855px;
+  left: 529px;
   background-color: #ddb322;
 }
 
-.bird .overlap-2 {
+.cat .overlap-2 {
   position: absolute;
   width: 298px;
   height: 419px;
@@ -249,130 +256,64 @@
   border-radius: 10px;
 }
 
-.bird .icon-pin-alt-2 {
-  left: -4786px;
+.cat .icon-pin-alt-2 {
+  left: -4812px;
   position: absolute;
   width: 22px;
   height: 28px;
-  top: -20992px;
+  top: -19795px;
 }
 
-.bird .icon-male-2 {
-  left: -4652px;
+.cat .icon-male-2 {
+  left: -4678px;
   position: absolute;
   width: 21px;
   height: 21px;
-  top: -20992px;
+  top: -19795px;
 }
 
-.bird .icon-female-2 {
-  left: -4623px;
+.cat .icon-female-2 {
+  left: -4649px;
   position: absolute;
   width: 15px;
   height: 23px;
-  top: -20987px;
+  top: -19790px;
 }
 
-.bird .component-3 {
+.cat .component-3 {
   position: absolute;
   width: 298px;
   height: 419px;
-  top: 850px;
-  left: 847px;
+  top: 855px;
+  left: 846px;
   background-color: #ddb322;
 }
 
-.bird .icon-pin-alt-3 {
-  left: -5105px;
+.cat .icon-pin-alt-3 {
+  left: -5129px;
   position: absolute;
   width: 22px;
   height: 28px;
-  top: -20992px;
+  top: -19795px;
 }
 
-.bird .icon-male-3 {
-  left: -4971px;
+.cat .icon-male-3 {
+  left: -4995px;
   position: absolute;
   width: 21px;
   height: 21px;
-  top: -20992px;
+  top: -19795px;
 }
 
-.bird .icon-female-3 {
-  left: -4942px;
+.cat .icon-female-3 {
+  left: -4966px;
   position: absolute;
   width: 15px;
   height: 23px;
-  top: -20987px;
+  top: -19790px;
 }
 
-.bird .component-4 {
-  position: absolute;
-  width: 298px;
-  height: 419px;
-  top: 850px;
-  left: 1164px;
-  background-color: #ddb322;
-}
-
-.bird .icon-pin-alt-4 {
-  left: -5422px;
-  position: absolute;
-  width: 22px;
-  height: 28px;
-  top: -20992px;
-}
-
-.bird .icon-male-4 {
-  left: -5288px;
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  top: -20992px;
-}
-
-.bird .icon-female-4 {
-  left: -5259px;
-  position: absolute;
-  width: 15px;
-  height: 23px;
-  top: -20987px;
-}
-
-.bird .component-5 {
-  position: absolute;
-  width: 298px;
-  height: 419px;
-  top: 850px;
-  left: 1485px;
-  background-color: #ddb322;
-}
-
-.bird .icon-pin-alt-5 {
-  left: -5743px;
-  position: absolute;
-  width: 22px;
-  height: 28px;
-  top: -20992px;
-}
-
-.bird .icon-male-5 {
-  left: -5609px;
-  position: absolute;
-  width: 21px;
-  height: 21px;
-  top: -20992px;
-}
-
-.bird .icon-female-5 {
-  left: -5580px;
-  position: absolute;
-  width: 15px;
-  height: 23px;
-  top: -20987px;
-}
-
-.bird .component-6 {
+.cat .component-4 {
   position: absolute;
   width: 298px;
   height: 419px;
@@ -381,16 +322,16 @@
   background-color: #ddb322;
 }
 
-.bird .component-7 {
+.cat .component-5 {
   position: absolute;
   width: 298px;
   height: 419px;
-  top: 414px;
+  top: 416px;
   left: 1482px;
   background-color: #ddb322;
 }
 
-.bird .component-8 {
+.cat .component-6 {
   position: absolute;
   width: 254px;
   height: 380px;
@@ -398,12 +339,12 @@
   left: 184px;
 }
 
-.bird .overlap-3 {
+.cat .overlap-3 {
   position: relative;
   height: 672px;
 }
 
-.bird .rectangle-3 {
+.cat .rectangle-4 {
   position: absolute;
   width: 227px;
   height: 146px;
@@ -413,7 +354,7 @@
   border-radius: 10px 10px 0px 0px;
 }
 
-.bird .sort-by-price-low-to {
+.cat .sort-by-price-low-to {
   position: absolute;
   width: 218px;
   top: 11px;
@@ -426,7 +367,7 @@
   line-height: normal;
 }
 
-.bird .rectangle-4 {
+.cat .rectangle-5 {
   position: absolute;
   width: 227px;
   height: 395px;
@@ -436,7 +377,7 @@
   border-radius: 0px 0px 10px 10px;
 }
 
-.bird .budget {
+.cat .budget {
   position: absolute;
   width: 204px;
   top: 272px;
@@ -449,7 +390,7 @@
   line-height: normal;
 }
 
-.bird .rectangle-5 {
+.cat .rectangle-6 {
   position: absolute;
   width: 227px;
   height: 115px;
@@ -458,7 +399,7 @@
   background-color: #ffffff;
 }
 
-.bird .gender-male-female {
+.cat .gender-male-female {
   position: absolute;
   width: 218px;
   top: 156px;
@@ -471,7 +412,7 @@
   line-height: normal;
 }
 
-.bird .ellipse {
+.cat .ellipse {
   top: 371px;
   position: absolute;
   width: 12px;
@@ -483,8 +424,8 @@
   border-color: #000000;
 }
 
-.bird .ellipse-2 {
-  top: 392px;
+.cat .ellipse-2 {
+  top: 391px;
   position: absolute;
   width: 12px;
   height: 12px;
@@ -495,8 +436,8 @@
   border-color: #000000;
 }
 
-.bird .ellipse-3 {
-  top: 412px;
+.cat .ellipse-3 {
+  top: 411px;
   position: absolute;
   width: 12px;
   height: 12px;
@@ -507,8 +448,8 @@
   border-color: #000000;
 }
 
-.bird .ellipse-4 {
-  top: 432px;
+.cat .ellipse-4 {
+  top: 431px;
   position: absolute;
   width: 12px;
   height: 12px;
@@ -519,7 +460,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-5 {
+.cat .ellipse-5 {
   top: 516px;
   position: absolute;
   width: 12px;
@@ -531,7 +472,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-6 {
+.cat .ellipse-6 {
   top: 536px;
   position: absolute;
   width: 12px;
@@ -543,7 +484,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-7 {
+.cat .ellipse-7 {
   top: 556px;
   position: absolute;
   width: 12px;
@@ -555,7 +496,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-8 {
+.cat .ellipse-8 {
   top: 632px;
   position: absolute;
   width: 12px;
@@ -567,7 +508,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-9 {
+.cat .ellipse-9 {
   top: 652px;
   position: absolute;
   width: 12px;
@@ -579,7 +520,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-10 {
+.cat .ellipse-10 {
   top: 672px;
   position: absolute;
   width: 12px;
@@ -591,7 +532,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-11 {
+.cat .ellipse-11 {
   top: 752px;
   position: absolute;
   width: 12px;
@@ -603,7 +544,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-12 {
+.cat .ellipse-wrapper {
   top: 772px;
   position: absolute;
   width: 12px;
@@ -615,7 +556,17 @@
   border-color: #000000;
 }
 
-.bird .ellipse-wrapper {
+.cat .ellipse-12 {
+  position: relative;
+  width: 6px;
+  height: 6px;
+  top: 2px;
+  left: 2px;
+  background-color: #2987f5;
+  border-radius: 3px;
+}
+
+.cat .ellipse-13 {
   top: 792px;
   position: absolute;
   width: 12px;
@@ -627,17 +578,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-13 {
-  position: relative;
-  width: 6px;
-  height: 6px;
-  top: 2px;
-  left: 2px;
-  background-color: #2987f5;
-  border-radius: 3px;
-}
-
-.bird .ellipse-14 {
+.cat .ellipse-14 {
   top: 812px;
   position: absolute;
   width: 12px;
@@ -649,7 +590,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-15 {
+.cat .ellipse-15 {
   top: 892px;
   position: absolute;
   width: 12px;
@@ -661,7 +602,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-16 {
+.cat .ellipse-16 {
   top: 912px;
   position: absolute;
   width: 12px;
@@ -673,7 +614,7 @@
   border-color: #000000;
 }
 
-.bird .ellipse-17 {
+.cat .ellipse-17 {
   top: 932px;
   position: absolute;
   width: 12px;
@@ -685,15 +626,15 @@
   border-color: #000000;
 }
 
-.bird .component-9 {
+.cat .component-7 {
   position: absolute;
   width: 1712px;
   height: 105px;
-  top: 42px;
-  left: 57px;
+  top: 41px;
+  left: 55px;
 }
 
-.bird .text-wrapper-7 {
+.cat .text-wrapper-7 {
   position: absolute;
   top: -1px;
   left: 0;
@@ -706,7 +647,7 @@
   white-space: nowrap;
 }
 
-.bird .text-wrapper-8 {
+ .text-wrapper-8 {
   position: absolute;
   border-radius: 15px;
   padding:15px;
@@ -722,11 +663,12 @@
   line-height: normal;
   white-space: nowrap;
 }
-.bird .text-wrapper-8:hover{
+.text-wrapper-8:hover{
   background-color: #000000;
 }
 
-.bird .p {
+
+.p {
   padding: 15px;
   border-radius: 15px;
   position: absolute;
@@ -744,7 +686,7 @@
 }
 .p:hover{background-color: #000000;}
 
-.bird .text-wrapper-9 {
+ .text-wrapper-9 {
   position: absolute;
   width: 200px;
   top: 39px;
@@ -760,11 +702,11 @@
   padding: 15px;
   border-radius: 15px;
 }
-.bird .text-wrapper-9:hover{
+.text-wrapper-9:hover{
   background-color: #000000;
 }
 
-.bird .text-wrapper-10 {
+.text-wrapper-10 {
   position: absolute;
   width: 150px;
   top: 39px;
@@ -781,11 +723,11 @@
   border-radius: 15px;
 
 }
-.bird .text-wrapper-10:hover{
+ .text-wrapper-10:hover{
   background-color: #000000;
 }
 
-.bird .p-o-s-t-a-d {
+ .p-o-s-t-a-d {
   position: absolute;
   width: 150px;
   top: 39px;
@@ -801,11 +743,9 @@
   padding:15px ;
   border-radius: 15px;
 }
-.bird .p-o-s-t-a-d:hover {background-color: #000000;}
+.p-o-s-t-a-d:hover {background-color: #000000;}
 
-.bird .p-e-t-r-e-n-t-a-l {
-  padding: 15px;
-  border-radius: 15px;
+.cat .p-e-t-r-e-n-t-a-l {
   position: absolute;
   width: 227px;
   top: 74px;
@@ -818,4 +758,3 @@
   line-height: normal;
   white-space: nowrap;
 }
-
