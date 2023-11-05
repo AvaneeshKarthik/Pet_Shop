@@ -1,0 +1,267 @@
+.profiles {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.profiles .overlap-wrapper {
+  background-color: #ffffff;
+  border: 1px solid;
+  border-color: #000000;
+  width: 1920px;
+  height: 1080px;
+}
+
+.profiles .overlap {
+  position: relative;
+  height: 1080px;
+}
+
+.profiles .rectangle {
+  background-color: #000000;
+  opacity: 0.5;
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+}
+
+.profiles .div {
+  background-color: #0d0d0d;
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+}
+
+.profiles .dogs-maltese-dog-pet {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.profiles .component {
+  position: absolute;
+  width: 1712px;
+  height: 105px;
+  top: 42px;
+  left: 57px;
+}
+
+.profiles .text-wrapper {
+  position: absolute;
+  top: -1px;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 64px;
+  letter-spacing: 4.8px;
+  line-height: 74.6px;
+  white-space: nowrap;
+}
+
+.profiles .text-wrapper-2 {
+  position: absolute;
+  top: 44px;
+  left: 819px;
+  opacity: 0.88;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.profiles .p {
+  position: absolute;
+  width: 117px;
+  top: 44px;
+  left: 966px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.profiles .overlap-group {
+  position: absolute;
+  width: 623px;
+  height: 32px;
+  top: 44px;
+  left: 1147px;
+}
+
+.profiles .text-wrapper-3 {
+  position: absolute;
+  width: 243px;
+  top: 0;
+  left: 0;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profiles .p-r-o-f-i-l-e {
+  position: absolute;
+  width: 241px;
+  top: 0;
+  left: 221px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.profiles .p-o-s-t-a-n-a-d {
+  position: absolute;
+  width: 171px;
+  top: 0;
+  left: 452px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.profiles .p-e-t-r-e-n-t-a-l {
+  position: absolute;
+  width: 227px;
+  top: 74px;
+  left: 63px;
+  font-family: "Inter", Helvetica;
+  font-weight: 300;
+  color: #ffffff;
+  font-size: 25px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.profiles .ellipse {
+  position: absolute;
+  width: 276px;
+  height: 276px;
+  top: 277px;
+  left: 170px;
+}
+
+.profiles .u-s-e-r-n-a-m-e {
+  position: absolute;
+  width: 443px;
+  top: 606px;
+  left: 96px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profiles .PRAYAGRAJ-u-p-INDIA {
+  position: absolute;
+  width: 354px;
+  top: 645px;
+  left: 170px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.profiles .span {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 40px;
+  letter-spacing: 0;
+}
+
+.profiles .text-wrapper-4 {
+  font-size: 25px;
+}
+
+.profiles .email-xyz-gmail-com {
+  position: absolute;
+  width: 382px;
+  top: 733px;
+  left: 170px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profiles .pets-owned-coco {
+  position: absolute;
+  width: 332px;
+  top: 586px;
+  left: 909px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profiles .text-wrapper-5 {
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 30px;
+  letter-spacing: 0;
+}
+
+.profiles .text-wrapper-6 {
+  top: 734px;
+  position: absolute;
+  width: 149px;
+  left: 552px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #2987f5;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.profiles .text-wrapper-7 {
+  top: 806px;
+  position: absolute;
+  width: 149px;
+  left: 552px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #2987f5;
+  font-size: 30px;
+  letter-spacing: 0;
+  line-height: normal;
+}
