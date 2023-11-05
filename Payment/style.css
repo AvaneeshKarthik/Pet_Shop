@@ -1,0 +1,65 @@
+.details {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.details .overlap-group-wrapper {
+  background-color: #ffffff;
+  width: 1920px;
+  height: 1080px;
+}
+
+.details .overlap-group {
+  position: relative;
+  height: 1080px;
+}
+
+.details .rectangle {
+  position: absolute;
+  width: 1920px;
+  height: 1080px;
+  top: 0;
+  left: 0;
+  background-color: #000000;
+  opacity: 0.8;
+}
+
+.details .text-wrapper {
+  position: absolute;
+  top: 464px;
+  left: 555px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.details .div {
+  position: absolute;
+  top: 539px;
+  left: 421px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.details .text-wrapper-2 {
+  position: absolute;
+  width: 371px;
+  top: 784px;
+  left: 774px;
+  font-family: "Inter", Helvetica;
+  font-weight: 700;
+  color: #ffffff;
+  font-size: 50px;
+  letter-spacing: 0;
+  line-height: normal;
+}
